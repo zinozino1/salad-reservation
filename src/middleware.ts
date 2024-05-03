@@ -6,5 +6,5 @@ export { default } from "next-auth/middleware";
 // 자동으로 로그인페이지로 리다이렉트 시킴.
 // @, () 잘 되나 봐야함.
 export const config = {
-  matcher: ["/posts/:path*"],
+    matcher: ["/posts/:path*"],
 };
